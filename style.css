@@ -7,11 +7,6 @@ main {
   margin-bottom: 100px;
 }
 
-img {
-  width: 25%;
-  border-radius: 50%;
-}
-
 /* Groups & Items  (Mobile First) */
 .wrapper {
   width: 100%;
@@ -42,7 +37,7 @@ img {
   }
 
   .group {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
   
