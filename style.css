@@ -7,12 +7,9 @@ main {
   margin-bottom: 100px;
 }
 
-.bg-primary {
-  background-color: #775f47;
-}
-
 .group img {
-  width: 100%;
+  width: 25%;
+  border-radius: 50%;
 }
 
 /* Groups & Items  (Mobile First) */
@@ -28,7 +25,7 @@ main {
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 20px;
 
 /* Groups & Items  (Desktop) */
 
