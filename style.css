@@ -60,4 +60,6 @@ form textarea {
     background: #eba5e1;
     color: #000;
     margin: 0 8px 10px 0;
+    width: 20px;
+    height: 3px;
 }
