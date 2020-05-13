@@ -1,1 +1,40 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+* {
+  font-family:'Roboto Mono', monospace;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  flex: 2;
+  margin: 20px;
+}
+
+.item {
+  flex: 1;
+  margin: 20px;
+}
+
+img {
+  size: 50%;
+  border-radius: 50%;
+}
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
