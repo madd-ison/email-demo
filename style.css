@@ -22,8 +22,8 @@
   margin: 20px;
 }
 
-.contact-img {
-  size: 50%;
+main img {
+  size: 25%;
   border-radius: 50%;
 }
 
@@ -36,4 +36,8 @@
   .group {
     flex-direction: row;
   }
+  * { font-family:'Roboto Mono', monospace; }
+  .contact-img {
+    size: 25%;
+    border-radius: 50%;
 }
