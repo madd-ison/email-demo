@@ -28,19 +28,6 @@ main {
   width: 25%;
   height:25%;
 }
-
-/* Groups & Items  (Desktop) */
-
-@media all and (min-width: 800px) {
-  .wrapper {
-    width: 80%;
-    margin: auto;
-  }
-
-  .group {
-    flex-direction: column;
-  }
-}
   
 form input, 
 form textarea {
@@ -63,4 +50,18 @@ form textarea {
     margin: 0 8px 10px 0;
     width: 20px;
     height: 3px;
+}
+
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: column;
+  }
 }
