@@ -49,3 +49,14 @@ form textarea {
 form textarea {
   height: 160px;
 }
+  
+  form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Roboto', monospace;
+    font-size: 16px;
+    background: #eba5e1;
+    color: #000;
+    margin: 0 8px 10px 0;
+}
