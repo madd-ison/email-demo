@@ -7,7 +7,7 @@ main {
   margin-bottom: 100px;
 }
 
-.group img {
+.group .photo {
   width: 25%;
   border-radius: 50%;
 }
