@@ -2,6 +2,20 @@
 * {
   font-family:'Roboto Mono', monospace;
 }
+main {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.bg-primary {
+  background-color: #775f47;
+}
+
+.group img {
+  width: 100%;
+}
+
+/* Groups & Items  (Mobile First) */
 .wrapper {
   width: 100%;
 }
@@ -9,19 +23,23 @@
 .group {
   display: flex;
   flex-direction: column;
-}
-
-.items {
-  flex: 2;
-  margin: 20px;
+  margin-bottom: 100px;
 }
 
 .item {
   flex: 1;
-  margin: 20px;
+  margin: 10px;
+
+/* Groups & Items  (Desktop) */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
 }
 
-main img {
-  size: 25%;
-  border-radius: 50%;
-}
