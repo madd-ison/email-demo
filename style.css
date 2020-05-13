@@ -51,7 +51,7 @@ form textarea {
   height: 160px;
 }
   
-  form button {
+  button[type=submit] {
     padding: 10px 16px;
     border-radius: 10px;
     border: 0;
