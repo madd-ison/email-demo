@@ -2,7 +2,6 @@
 * {
   font-family:'Roboto Mono', monospace;
 }
-
 .wrapper {
   width: 100%;
 }
@@ -25,19 +24,4 @@
 main img {
   size: 25%;
   border-radius: 50%;
-}
-
-@media all and (min-width: 800px) {
-  .wrapper {
-    width: 80%;
-    margin: auto;
-  }
-
-  .group {
-    flex-direction: row;
-  }
-  * { font-family:'Roboto Mono', monospace; }
-  .contact-img {
-    size: 25%;
-    border-radius: 50%;
 }
