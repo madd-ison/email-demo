@@ -26,6 +26,12 @@ img {
 .item {
   flex: 1;
   margin: 20px;
+}
+.photo {
+  border-radius: 50%;
+  width: 25%;
+  height:25%;
+}
 
 /* Groups & Items  (Desktop) */
 
